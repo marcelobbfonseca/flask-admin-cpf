@@ -1,0 +1,16 @@
+{% extends 'admin/model/edit.html' %}
+
+{% block body %}
+    <h1>User Edit View</h1>
+    {{ super() }}
+{% endblock %}
+
+{% block tail %}
+    <script type="text/javascript" src="https://www.geradorcpf.com/assets/js/jquery-1.2.6.pack.js"></script>
+    <script type="text/javascript" src="https://www.geradorcpf.com/assets/js/jquery.maskedinput-1.1.4.pack.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#cpf").mask("999.999.999-99");
+        });
+    </script>
+{% endblock tail %}
