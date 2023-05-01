@@ -8,5 +8,5 @@ MarkupSafe==1.1.1
 pep8==1.7.1
 pycpfcnpj==1.5.1
 SQLAlchemy==1.3.16
-Werkzeug==0.15.5
+Werkzeug==2.3.3
 WTForms==2.3.1
